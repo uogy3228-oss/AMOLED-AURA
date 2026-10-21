@@ -16,7 +16,7 @@
         "NSPhotoLibraryUsageDescription": "AMOLED_AURA needs photo access to save wallpapers."
       }
     },
-    "android": { "package": "com.amoledaura.app", "permissions": [], "adaptiveIcon": { "foregroundImage": "./82747.png", "backgroundColor": "#000000" } },,
+    "android": { "package": "com.amoledaura.app", "permissions": [], "adaptiveIcon": { "foregroundImage": "./82747.png", "backgroundColor": "#000000" } },
     "plugins": [
       "expo-router",
       "expo-localization",

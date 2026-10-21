@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "GlassWalls",
+    "slug": "glasswalls",
+    "scheme": "glasswalls",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.example.glasswalls",
+      "infoPlist": {
+        "NSPhotoLibraryAddUsageDescription": "GlassWalls saves the wallpapers you download to your photo library.",
+        "NSPhotoLibraryUsageDescription": "GlassWalls needs photo access to save wallpapers."
+      }
+    },
+    "android": { "package": "com.example.glasswalls", "permissions": [] },
+    "plugins": [
+      "expo-router",
+      "expo-localization",
+      ["expo-media-library", {
+        "photosPermission": "GlassWalls needs photo access to save wallpapers.",
+        "savePhotosPermission": "GlassWalls saves the wallpapers you download to your photo library.",
+        "isAccessMediaLocationEnabled": false
+      }]
+    ]
+  }
+}

@@ -1,6 +1,7 @@
 {
   "expo": {
     "name": "AMOLED AURA",
+    "icon": "./82747.png",
     "slug": "AMOLED_AURA",
     "scheme": "AMOLED_AURA",
     "version": "1.0.0",
@@ -15,7 +16,7 @@
         "NSPhotoLibraryUsageDescription": "AMOLED_AURA needs photo access to save wallpapers."
       }
     },
-    "android": { "package": "com.example.com.example.amoledaura.amoledaura", "permissions": [] },
+    "android": { "package": "com.amoledaura.app", "permissions": [], "adaptiveIcon": { "foregroundImage": "./82747.png", "backgroundColor": "#000000" } },,
     "plugins": [
       "expo-router",
       "expo-localization",

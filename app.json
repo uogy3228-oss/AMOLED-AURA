@@ -2,7 +2,7 @@
   "expo": {
     "name": "AMOLED AURA",
     "icon": "./82747.png",
-    "slug": "AMOLED_AURA",
+    "slug": "new_app_name",
     "scheme": "AMOLED_AURA",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -10,7 +10,7 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.example.glasswalls",
+      "bundleIdentifier": "com.example.amoledaura",
       "infoPlist": {
         "NSPhotoLibraryAddUsageDescription": "AMOLED_AURA saves the wallpapers you download to your photo library.",
         "NSPhotoLibraryUsageDescription": "AMOLED_AURA needs photo access to save wallpapers."

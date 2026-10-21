@@ -1,8 +1,8 @@
 {
   "expo": {
     "name": "AMOLED AURA",
-    "slug": "new-app-name",
-    "scheme": "glasswalls",
+    "slug": "AMOLED_AURA",
+    "scheme": "AMOLED_AURA",
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "dark",
@@ -11,17 +11,17 @@
       "supportsTablet": true,
       "bundleIdentifier": "com.example.glasswalls",
       "infoPlist": {
-        "NSPhotoLibraryAddUsageDescription": "GlassWalls saves the wallpapers you download to your photo library.",
-        "NSPhotoLibraryUsageDescription": "GlassWalls needs photo access to save wallpapers."
+        "NSPhotoLibraryAddUsageDescription": "AMOLED_AURA saves the wallpapers you download to your photo library.",
+        "NSPhotoLibraryUsageDescription": "AMOLED_AURA needs photo access to save wallpapers."
       }
     },
-    "android": { "package": "com.example.glasswalls", "permissions": [] },
+    "android": { "package": "com.example.com.example.amoledaura.amoledaura", "permissions": [] },
     "plugins": [
       "expo-router",
       "expo-localization",
       ["expo-media-library", {
-        "photosPermission": "GlassWalls needs photo access to save wallpapers.",
-        "savePhotosPermission": "GlassWalls saves the wallpapers you download to your photo library.",
+        "photosPermission": "AMOLED_AURA needs photo access to save wallpapers.",
+        "savePhotosPermission": "AMOLED_AURA saves the wallpapers you download to your photo library.",
         "isAccessMediaLocationEnabled": false
       }]
     ]
